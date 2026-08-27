@@ -192,7 +192,7 @@ a { color: inherit; text-decoration: none; }
     text-decoration: none;
 }
 
-.btn-black:hover { opacity: 0.9; }
+.btn-black:hover { background: var(--accent); }
 
 /* ------------------------------------------------------------------ */
 /* Mock card (hero visual)                                             */
