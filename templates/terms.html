@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Expenzy{% endblock %}
+
+{% block content %}
+<div class="terms-container">
+    <section class="terms-header">
+        <h1>Terms and Conditions</h1>
+        <p>Last Updated: August 26, 2026</p>
+    </section>
+
+    <section class="terms-section">
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using Expenzy, you agree to be bound by these Terms and Conditions and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
+    </section>
+
+    <section class="terms-section">
+        <h2>2. Use of Service</h2>
+        <p>Expenzy is a personal expense tracking tool. You agree to use the service only for lawful purposes and in a manner that does not infringe the rights of others. You are responsible for maintaining the confidentiality of your account credentials.</p>
+    </section>
+
+    <section class="terms-section">
+        <h2>3. User Data</h2>
+        <p>We value your privacy. Any data you upload to Expenzy is used solely for the purpose of providing you with financial tracking insights. We do not sell your personal financial data to third parties.</p>
+    </section>
+
+    <section class="terms-section">
+        <h2>4. Limitations of Liability</h2>
+        <p>Expenzy is provided "as is" without any warranties, express or implied. In no event shall Expenzy or its developers be liable for any damages (including, without limitation, damages for loss of data or profit) arising out of the use or inability to use the materials on the website.</p>
+    </section>
+
+    <section class="terms-section">
+        <h2>5. Changes to Terms</h2>
+        <p>Expenzy reserves the right to revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then-current version of these Terms and Conditions.</p>
+    </section>
+</div>
+
+<style>
+    .terms-container {
+        max-width: 800px;
+        margin: 4rem auto;
+        padding: 0 2rem;
+        line-height: 1.6;
+        color: var(--text-main);
+    }
+    .terms-header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .terms-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .terms-section {
+        margin-bottom: 2rem;
+    }
+    .terms-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--primary);
+    }
+</style>
+{% endblock %}
